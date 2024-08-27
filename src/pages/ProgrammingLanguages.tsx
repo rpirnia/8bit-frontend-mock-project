@@ -1,11 +1,13 @@
 import * as React from "react"; 
 import { createRoot } from "react-dom/client";
+import Navbar from "../components/Navbar";
 
 const ProgrammingLanguages = () => { 
 
 return ( 
 
 <> 
+<Navbar/>
 
 <div className="container text-left my-5" style={{paddingTop:100}}>
 
